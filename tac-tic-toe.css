@@ -1,0 +1,151 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 3em;
+    background-color: rgb(31, 171, 226);
+}
+
+.title{
+    font-size: 50%;
+    margin: 25px auto;
+    text-align: center;
+    width: 80%;
+    height: auto;
+    display: block;
+}
+
+.inputBox {
+  margin: 1% auto;
+  width: 300px;
+  display: block;
+}
+
+.scorebox {
+  width: 350px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.score {
+  justify-content: space-evenly;
+  font-size: 1.2rem;
+  text-align: center;
+  border: 1px solid black;
+  height: 90px;
+  width: 90px;
+  display: block;
+}
+
+.container {
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 360px;
+    height: 360px;
+}
+
+.circle {
+    border-radius: 20%;
+    border: 1px solid black;
+    margin: 15px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+}
+
+.container-rows {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto auto;
+}
+
+.first-row {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.second-row {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.third-row {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.reset {
+    font-size: 2rem;
+    text-align: center;
+    background-color: black;
+    margin: 3% auto;
+    width: 70%;
+    border: 2px solid white;
+    border-radius: 10%;
+    display: none;
+}
+
+
+
+footer {
+  height: 1%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightblue;
+  color: white;
+  text-align: right;
+}
+
+footer p {
+  font-size: 0.4em;
+  margin-right: 2%;
+}
+
+#Owins, #Xwins, #noWinnerSign {
+    color: green;
+    font-size: 2rem;
+    margin: 25px auto;
+    text-align: center;
+    width: 80%;
+    height: 1.25em;
+    display: none;
+}
+
+#Owins {
+    color: green;
+    display: none;
+}
+
+#Xwins {
+    color: red;
+    display: none;
+}
+
+#noWinnerSign {
+    color: rgb(20, 238, 38);
+    display: none;
+}
+
+#debug {
+    border: 2px solid red;
+    display: block;
+    max-width: 200px;
+    margin: 10px auto;
+    text-align: center;
+    background-color: greenyellow;
+    display: none;
+}
+
+#debug2 {
+    border: 2px solid red;
+    display: none;
+    max-width: 200px;
+    margin: 10px auto;
+    text-align: center;
+    background-color: greenyellow;
+}
